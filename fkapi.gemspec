@@ -5,10 +5,10 @@ Gem::Specification.new do |s|
   s.name        = "fkapi"
   s.version     = Fkapi::VERSION
   s.platform    = Gem::Platform::RUBY
-  s.authors     = []
+  s.authors     = ["Moises Beltran"]
   s.email       = []
-  s.homepage    = "http://rubygems.org/gems/fkapi"
-  s.summary     = "TODO: Write a gem summary"
+  s.homepage    = "https://github.com/bmoises/fkapi"
+  s.summary     = "Simple lib to fake API responses"
   s.description = "TODO: Write a gem description"
 
   s.required_rubygems_version = ">= 1.3.6"
