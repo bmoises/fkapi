@@ -11,6 +11,7 @@ module Fkapi
         end
       end.parse!
 
+      raise Errors::InvalidInputFile unless options[:input_file]
 
       set :loader, Fkapi::Loader.new( options[:input_file] )
     end
