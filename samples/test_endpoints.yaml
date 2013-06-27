@@ -1,0 +1,15 @@
+---
+/test:
+  strict: true
+  params:
+    one: 1
+    two: 2
+  response:
+    Hello: World
+
+/test_not_strict:
+  params:
+    one: 1
+    two: 2
+  response:
+    Hello: World

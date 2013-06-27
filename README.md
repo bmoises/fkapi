@@ -24,7 +24,9 @@ Usage
 
 - Run
   ./bin/fkapi --input samples/test_endpoints.yaml
+
 - Test
+
   curl "http://localhost:4567/test?one=1&two=2"
   curl "http://localhost:4567/test_not_strict?one=1&two=3"
 
